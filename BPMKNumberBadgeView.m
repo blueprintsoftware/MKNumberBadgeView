@@ -1,6 +1,6 @@
 //
-//  MKNumberBadgeView.m
-//  MKNumberBadgeView
+//  BPMKNumberBadgeView.m
+//  BPMKNumberBadgeView
 //
 // Copyright 2009 Michael F. Kamprath
 // michael@claireware.com
@@ -18,10 +18,10 @@
 // limitations under the License.
 //
 
-#import "MKNumberBadgeView.h"
+#import "BPMKNumberBadgeView.h"
 
 
-@interface MKNumberBadgeView ()
+@interface BPMKNumberBadgeView ()
 
 //
 // private methods
@@ -33,7 +33,7 @@
 @end
 
 
-@implementation MKNumberBadgeView
+@implementation BPMKNumberBadgeView
 @synthesize value=_value;
 @synthesize shadow;
 @synthesize shadowOffset;
