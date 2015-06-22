@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'BPMKNumberBadgeView'
-  s.version      = '1.0.0'
+  s.version      = '1.0.2'
   s.license      = {
                     :type => 'Apache License, Version 2.0',
                     :text => '
