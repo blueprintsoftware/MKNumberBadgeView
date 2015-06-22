@@ -1,6 +1,6 @@
 //
-//  MKNumberBadgeView.h
-//  MKNumberBadgeView
+//  BPMKNumberBadgeView.h
+//  BPMKNumberBadgeView
 //
 // Copyright 2009 Michael F. Kamprath
 // michael@claireware.com
@@ -18,7 +18,7 @@
 // limitations under the License.
 //
 //
-// MKNumberBadgeView
+// BPMKNumberBadgeView
 // -----------------
 //
 // Use this class to display a badge containing an integer value.Similar to the app icon badges that the iPhone OS permits.
@@ -33,7 +33,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MKNumberBadgeView : UIView
+@interface BPMKNumberBadgeView : UIView
 {
     NSUInteger _value;
 }
