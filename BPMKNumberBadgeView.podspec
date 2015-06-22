@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'BPMKNumberBadgeView'
-  s.version      = '1.0.3'
+  s.version      = '1.0.4'
   s.license      = {
                     :type => 'Apache License, Version 2.0',
                     :text => '
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Michael F. Kamprath' => 'michael@claireware.com',
   					         'Nico van Zijl' => 'nico@blueprint-software.nl',
   					         'Rutger Nijhuis' => 'rutger@blueprint-software.nl' }
-  s.source       = { :git => 'https://github.com/blueprintsoftware/MKNumberBadgeView.git' :tag => s.version  }
+  s.source       = { :git => 'https://github.com/blueprintsoftware/MKNumberBadgeView.git', :tag => s.version  }
   s.source_files = 'BPMKNumberBadgeView.{h,m}'
   s.platform     = :ios
 end
